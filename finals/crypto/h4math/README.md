@@ -1,8 +1,8 @@
-# h3math
+# h4math
 
 ## Description
 
-can you do h3 math???
+can you do h4 math?????????
 
 ## Author
 
@@ -10,6 +10,6 @@ burner972021
 
 ## Flag
 
-`sctf{gcd_stands_for_gullible}`
+`sctf{gagag00googull1ble}`
 
 # 4 solves
