@@ -1,0 +1,6 @@
+services:
+  challenge:
+    container_name: web-EasyXSSChallenge
+    build: src
+    ports:
+      - "9999:38457"

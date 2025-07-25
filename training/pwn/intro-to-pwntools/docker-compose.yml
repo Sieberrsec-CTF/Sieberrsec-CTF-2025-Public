@@ -1,0 +1,7 @@
+services:
+  challenge:
+    container_name: pwn-intro_pwntools
+    build: src
+    ports:
+      - 10002:5000 # use port 5000 if you are using pwn.red 
+    privileged: true  # uncomment this if you are using pwn.red 

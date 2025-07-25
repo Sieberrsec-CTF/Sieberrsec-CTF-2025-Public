@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %}2FA Verification - SecureBank{% endblock %}
+
+{% block content %}
+<div class="header">
+    <h1>🛡️ Two-Factor Authentication</h1>
+    <p>Enter your 2FA code to continue</p>
+</div>
+
+{% if error %}
+<div class="error">{{ error }}</div>
+{% endif %}
+
+<form method="POST">
+    <div class="form-group">
+        <label for="code">2FA Code</label>
+        <input type="text" id="code" name="code" placeholder="Enter 3-digit code" required>
+    </div>
+    
+    <button type="submit" class="btn">Verify Code</button>
+</form>
+
+<script>
+// Hint for the race condition - multiple requests can be sent simultaneously
+document.addEventListener('DOMContentLoaded', function() {
+    const form = document.querySelector('form');
+    const submitBtn = document.querySelector('.btn');
+    
+    // Add some visual feedback
+    form.addEventListener('submit', function() {
+        submitBtn.textContent = 'Verifying...';
+        submitBtn.disabled = true;
+        
+        setTimeout(() => {
+            submitBtn.textContent = 'Verify Code';
+            submitBtn.disabled = false;
+        }, 2000);
+    });
+});
+</script>
+{% endblock %}

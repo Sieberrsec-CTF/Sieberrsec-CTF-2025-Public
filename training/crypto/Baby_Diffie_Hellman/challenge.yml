@@ -1,0 +1,21 @@
+name: Baby Diffie Hellman
+author: yeobl
+attribution: yeobl
+category: Crypto
+description: 'Diffie Hellman is a widely used private key cryptosystem. 
+  In this challenge, Alice has both her own private and public keys alongside Bob`s public key. 
+  Can you help her decrypt the ciphertext and find the flag?'
+flags:
+- sctf{d1scr3t3_l0g_1s_h4rd}
+files: # remove this if you are not giving any files to players
+- dist/source.py
+
+# optional
+# attempts: 10 # max number of flag submission attempts
+# requirements:
+#   - {{chall name here that needs to be solved to unlock this challenge}}
+
+# do not edit these
+type: standard
+value: 1000
+state: visible

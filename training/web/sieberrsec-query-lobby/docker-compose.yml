@@ -1,0 +1,6 @@
+services:
+  challenge:
+    container_name: web-sql
+    build: src
+    ports:
+      - 10012:8000

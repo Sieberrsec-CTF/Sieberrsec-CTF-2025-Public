@@ -1,0 +1,22 @@
+Alice: Hi Bob! Let's chat, I have a secret to share with you :D
+
+Bob: Sure Alice, but I think someone might be listening in onto our conversation. Why don't we use Diffie-Hellman to generate a shared key first?
+
+Alice: Sounds great, I have chosen some parameters for us to exchange keys. See below
+p = 179484242443842647076157545916813145863
+g = p + 1
+n = p ** 2
+n will be our modulus, while g will be our generator. I have even set n to be the square of a 128-bit prime for extra security :O
+
+Alice: Here is my public key
+A = 8151835455168296616595830665780193016395220737150883049799789336683642356143
+
+Bob: Here is my public key
+B = 646175581967890937758569249870803113107371238047129135444530422086013438685
+
+Alice: I have generated the shared key and converted it to bytes, let's use this key to encrypt our future communications with AES-ECB and broadcast the hex strings. 
+
+Bob: e44a29f25574feaf3142485f8530c88c618a8b4f46c0222293d28f5f68fc1f6500309a3f5b4a9245147d7c7e0146b8a4fa44b2730a072ff83c6faf05e18e754e4e92b460e4ec419a364e1844c2ecd0bc90a43c35536f08cf72c92fa3056f52cb0e33ea24e9c79575f54ee84983fda1fd48304785ceb47718cd27147b91605e8eb822ac64127842a6d9a0ea5a6a123e1b3a86bd8a75bca0d33967fded8b865cb8fd078377bab3d35feb087113411d42e61d8176232220a79aa5ee3ae9c81a7281165d5181c33b69387c90c9874d065fab460669e46757919d51d881822807a77a4eaeafd052e78c55f4fb9e246f57c12f
+
+Alice:
+350b102a89bb573b55066cf664f54251ea466f6447fe1e7ff9bba93b0f0e7135e5f6e3b409b2ebaeb9d671e6395989342e0071850b1352a3b13cc9079764730ad8762c13437ffcd476661f816bc36a754e2d0348e7fbd5b980cb2461d3917030750e32712a2c214c69dc1f6bdf6ad70c3f28d375612d59d7ecd313e1c990d3abc154c0b0089d3f1f350b12e70513f2e7802d6a4f48a26c06d43874d42fdf213f46a1ccf80247c593d75d3211f52eb363

@@ -1,0 +1,26 @@
+name: WUBBALUBBADUBDUB
+author: jeff160
+attribution: jeff160
+category: Web
+description: 'Rick needs more pickles to develop his anti-pickle serum, help him out!'
+flags:
+- sctf{1_4m_1n_gR34t_p41N_pL3453_h3lP_m3}
+files:
+- dist/WUBBALUBBADUBDUB.zip
+tags:
+- jeff160
+
+# optional
+# attempts: 10 # max number of flag submission attempts
+# requirements:
+#   - {{chall name here that needs to be solved to unlock this challenge}}
+
+# do not edit these
+type: dynamic
+value: 1000
+state: visible
+connection_info: http://chal1.sieberr.live:16017 or http://chal2.sieberr.live:16017
+extra:
+  decay: 100
+  initial: 1000
+  minimum: 100

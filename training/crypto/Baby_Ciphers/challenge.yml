@@ -1,0 +1,23 @@
+name: Baby Ciphers
+author: yeobl
+attribution: yeobl
+category: Crypto
+description: 'I have split my flag into multiple parts and 
+  encrypted them with various techniques! 
+  
+  
+  You will never be able to find the original flag!'
+flags:
+- sctf{k3yl355_c1ph3rs_4r3_n0t_s3cur3}
+files: # remove this if you are not giving any files to players
+- dist/source.py
+
+# optional
+# attempts: 10 # max number of flag submission attempts
+# requirements:
+#   - {{chall name here that needs to be solved to unlock this challenge}}
+
+# do not edit these
+type: standard
+value: 1000
+state: visible

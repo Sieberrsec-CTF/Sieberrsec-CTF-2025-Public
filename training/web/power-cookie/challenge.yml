@@ -1,0 +1,18 @@
+name: picoCTF 2022 - Power Cookie
+author: enxgmatic
+attribution: enxgmatic
+category: Web
+description: 'Can you get the flag?'
+flags:
+- sctf{gr4d3_A_c00k13}
+
+# optional
+# attempts: 10 # max number of flag submission attempts
+# requirements:
+#   - {{chall name here that needs to be solved to unlock this challenge}}
+
+# do not edit these
+type: standard
+value: 1000
+state: visible
+connection_info: http://chal1.sieberr.live:10011

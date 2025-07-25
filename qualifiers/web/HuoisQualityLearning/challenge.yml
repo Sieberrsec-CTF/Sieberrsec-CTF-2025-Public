@@ -1,0 +1,26 @@
+name: HuoisQualityLearning
+author: '0x3af72'
+attribution: '0x3af72'
+category: Web
+description: "This challenge seems familiar...
+
+  Let's hope Huoi didn't make the same mistake as Sarah."
+flags:
+- sctf{oh_no_huoi_what_have_you_done}
+tags:
+- '0x3af72'
+
+# optional
+# attempts: 10 # max number of flag submission attempts
+# requirements:
+#   - {{chall name here that needs to be solved to unlock this challenge}}
+
+# do not edit these
+type: dynamic
+value: 1000
+state: visible
+connection_info: http://chal1.sieberr.live:16002 or http://chal2.sieberr.live:16002
+extra:
+  decay: 100
+  initial: 1000
+  minimum: 100

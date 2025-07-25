@@ -1,0 +1,26 @@
+name: Bearings Check
+author: whywhy
+attribution: whywhy
+category: Pwn
+description: 'Every pwner has had to gain their bearings at least once. Can you gain yours?'
+flags:
+- sctf{N0W_1_C4N_T3LL_T0P_FR0M_B0TT0M}
+files: # remove this if you are not giving any files to players
+- dist/bearings_check.zip
+tags:
+- whywhy
+
+# optional
+# attempts: 10 # max number of flag submission attempts
+# requirements:
+#   - {{chall name here that needs to be solved to unlock this challenge}}
+
+# do not edit these
+type: dynamic
+value: 1000
+state: visible
+connection_info: nc chal1.sieberr.live 15001 or nc chal2.sieberr.live 15001
+extra:
+  decay: 100
+  initial: 1000
+  minimum: 100

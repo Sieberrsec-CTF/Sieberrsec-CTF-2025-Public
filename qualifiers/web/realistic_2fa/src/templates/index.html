@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard - SecureBank CTF{% endblock %}
+
+{% block content %}
+<div class="header">
+    <h1>🎉 Welcome to SecureBank!</h1>
+    <p>Authentication successful</p>
+</div>
+
+<div class="flag">
+    <strong>🚩 FLAG:</strong><br>
+    {{ flag }}
+</div>
+{% endblock %}

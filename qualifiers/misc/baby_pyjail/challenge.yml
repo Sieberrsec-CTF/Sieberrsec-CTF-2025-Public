@@ -1,0 +1,24 @@
+name: baby pyjail
+author: jeff160
+attribution: jeff160
+category: Misc
+description: '![](https://i.imgur.com/wvWF6aP.png)'
+flags:
+- sctf{go0_G0O_9a9a}
+files:
+- dist/baby-pyjail.zip
+
+# optional
+# attempts: 10 # max number of flag submission attempts
+# requirements:
+#   - {{chall name here that needs to be solved to unlock this challenge}}
+
+# do not edit these
+type: dynamic
+value: 1000
+state: visible
+connection_info: xx
+extra:
+  decay: 50
+  initial: 1000
+  minimum: 100

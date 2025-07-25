@@ -1,0 +1,6 @@
+services:
+  challenge:
+    container_name: web-minesweeper
+    build: src
+    ports:
+      - 9999:28576

@@ -1,0 +1,22 @@
+name: napping cat
+author: enxgmatic
+attribution: enxgmatic
+category: General Skills
+description: 'Find the napping cat! I heard he may have a flag if you treat him nicely.
+  Connect to chal1.sieberr.live at port 12344 to find him.
+  
+  
+  _Concepts: netcat_'
+flags:
+- sctf{n3tc4+_i5_n4pPin9}
+
+connection_info: nc chal1.sieberr.live 12344
+# optional
+# attempts: 10 # max number of flag submission attempts
+# requirements:
+#   - {{chall name here that needs to be solved to unlock this challenge}}
+
+# do not edit these
+type: standard
+value: 1000
+state: visible

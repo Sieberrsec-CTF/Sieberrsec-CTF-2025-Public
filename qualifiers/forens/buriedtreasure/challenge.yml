@@ -1,0 +1,19 @@
+name: Buried Treasure
+author: lty748
+attribution: lty748
+category: Forensics
+description: 'How do pirates Bury their Treasure?'
+flags:
+- sctf{idk_what_to_put_here_so_enjoy_the_shrek_movie}
+files:
+- dist/capture.pcapng
+tags:
+- lty748
+
+type: dynamic
+value: 1000
+state: visible
+extra:
+  decay: 100
+  initial: 1000
+  minimum: 100

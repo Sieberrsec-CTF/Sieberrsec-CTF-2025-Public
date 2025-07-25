@@ -1,0 +1,6 @@
+services:
+  challenge:
+    container_name: web-source
+    build: src
+    ports:
+      - 18537:18537

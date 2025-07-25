@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block title %}Welcome{% endblock %}
+
+{% block content %}
+<h1>🔐 Admin Portal Login Page</h1>
+
+<div class="session-info">
+    <h3>Session Information</h3>
+    <p>Session ID: <span class="session-id" id="sessionId">{{ session_id }}</span></p>
+</div>
+
+<div style="text-align: center;">
+    <p style="color: #cccccc; margin-bottom: 2rem;">
+        Welcome to the Admin Portal! You need an account to proceed.
+    </p>
+    
+    <p style="color: #ffff00; margin-bottom: 2rem;">
+        Would you like to create an account?
+    </p>
+    
+    <button class="btn" onclick="createAccount()">
+        Create Account
+    </button>
+    
+    <div class="loading">
+        <p>⏳ Creating account...</p>
+    </div>
+</div>
+{% endblock %}

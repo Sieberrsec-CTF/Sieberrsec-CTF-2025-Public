@@ -1,0 +1,40 @@
+name: pathsetter
+author: Elma
+attribution: Elma
+category: Pwn
+description: 'Yeah
+
+
+  Trendsetter, whoa
+
+
+  League of my own it dont get better, no
+
+
+  Read what I wrote Im a best seller, yeah
+
+
+  Reach for my goals hit it dead center
+
+
+  Hit it dead center'
+flags:
+- sctf{strcat_is_an_annoying_bof_vector_lol_sxdf12340u9vzklnjc}
+files: # remove this if you are not giving any files to players
+- dist/pwn-pathsetter.zip
+tags:
+    - Elma
+# optional
+# attempts: 10 # max number of flag submission attempts
+# requirements:
+#   - {{chall name here that needs to be solved to unlock this challenge}}
+
+# do not edit these
+type: dynamic
+value: 1000
+state: visible
+connection_info: nc finals1.sieberr.live 15002
+extra:
+  decay: 15
+  initial: 1000
+  minimum: 100

@@ -1,0 +1,19 @@
+name: incognito 2
+author: lty748
+attribution: lty748
+category: Forensics
+description: 'My friend just logged into some suspicious website. Help me find the credentials he logged in with!
+  
+  
+  Please use the same file as incognito 1'
+flags:
+- sctf{4r3_y0ur_p455w0rd5_r34lly_54f3}
+tags:
+    - lty748
+type: dynamic
+value: 1000
+state: visible
+extra:
+  decay: 15
+  initial: 1000
+  minimum: 100

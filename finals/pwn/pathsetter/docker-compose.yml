@@ -1,0 +1,7 @@
+services:
+  pathsetter:
+    container_name: pwn-pathsetter
+    build: src
+    privileged: true
+    ports:
+      - 9999:5000

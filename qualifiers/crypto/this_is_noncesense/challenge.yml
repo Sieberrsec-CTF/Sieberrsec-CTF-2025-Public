@@ -1,0 +1,24 @@
+name: this is noncesense
+author: yanganyi
+attribution: yanganyi
+category: Crypto
+description: 'yay!'
+flags:
+- sctf{gullible_gull1ble_gull1bl3_gu11ible_gu111ble_gu111bl3_6ullible_6u1lible_6u1l1bl3_GULLIBLE_GU11IBL3_gullible}
+files: # remove this if you are not giving any files to players
+- dist/thisisnoncesense.zip
+tags:
+    - yanganyi
+# optional
+# attempts: 10 # max number of flag submission attempts
+# requirements:
+#   - {{chall name here that needs to be solved to unlock this challenge}}
+
+# do not edit these
+type: dynamic
+value: 1000
+state: visible
+extra:
+  decay: 50
+  initial: 1000
+  minimum: 100

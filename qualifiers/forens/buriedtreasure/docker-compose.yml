@@ -1,0 +1,8 @@
+services:
+  challenge:
+    container_name: forens-buriedtreasure
+    build: src
+    privileged: true
+    ports:
+      - "51413:51413/tcp"
+      - "51413:51413/udp"

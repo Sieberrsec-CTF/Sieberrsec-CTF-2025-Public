@@ -1,0 +1,22 @@
+name: h2math
+author: burner972021
+attribution: burner972021
+category: Crypto
+description: 'can you do h2 math?'
+flags:
+- sctf{guIIible^2+c_modq}
+files: # remove this if you are not giving any files to players
+- dist/h2math.py
+
+tags:
+- burner972021
+
+# do not edit these
+type: dynamic
+value: 1000
+state: visible
+connection_info: nc finals1.sieberr.live 18003
+extra:
+  decay: 15
+  initial: 1000
+  minimum: 100

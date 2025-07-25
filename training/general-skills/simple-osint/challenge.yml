@@ -1,0 +1,21 @@
+name: simple osint
+author: yanganyi
+attribution: yanganyi
+category: General Skills
+description: 'have fun! whats the full official name of this school?
+
+  _Concepts: osint_'
+flags:
+- sctf{hwa_chong_institution}
+files:
+- dist/sctf_practice_osint.jpeg
+
+# optional
+# attempts: 3 # max number of flag submission attempts
+# requirements:
+#   - {{chall name here that needs to be solved to unlock this challenge}}
+
+# do not edit these
+type: standard
+value: 1000
+state: visible

@@ -1,0 +1,22 @@
+name: Flying Gorilla 2
+author: lty748
+attribution: lty748
+category: Forensics
+description: 'Wow I can''t wait to check out this new game! What''s the worst that could happen?
+
+
+  The artifacts from this challenge may contain malicious code, do exercise caution when running unknown programs!'
+flags:
+- sctf{rev_in_my_forens????}
+files:
+- dist/capture.pcapng
+tags:
+- lty748
+
+type: dynamic
+value: 1000
+state: visible
+extra:
+  decay: 15
+  initial: 1000
+  minimum: 100

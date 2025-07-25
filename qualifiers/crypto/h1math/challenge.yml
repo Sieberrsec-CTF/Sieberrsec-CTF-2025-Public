@@ -1,0 +1,19 @@
+name: h1math
+author: burner972021
+attribution: burner972021
+category: Crypto
+description: 'can you do h1 math'
+flags:
+- sctf{gu11iblelbi11ugu11ible}
+files:
+- dist/h1math.py 
+
+
+# do not edit these
+type: dynamic
+value: 1000
+state: visible
+extra:
+  decay: 50
+  initial: 1000
+  minimum: 100

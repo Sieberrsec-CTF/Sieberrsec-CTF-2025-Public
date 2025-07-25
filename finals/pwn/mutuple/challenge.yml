@@ -1,0 +1,24 @@
+name: mutuple
+author: samuzora
+attribution: samuzora
+category: Pwn
+description: 'I made tuples mutable... you can call them mutuples ecks dee
+
+
+  (ps. if you feel like your solution is unintended, please open a ticket and let us know!)'
+
+flags:
+  - sctf{ther3s_mulTUPLE_w4ys_t0_s0lve_th15_ch4ll_xD_xD_xD_im_s0_funny_heheh3h4_tupl3_Tup73_tup1e_Tupl3_tuple}
+
+files:
+  - dist/dist-mutuple.zip
+tags:
+    - samuzora
+type: dynamic
+value: 1000
+state: visible
+connection_info: nc finals1.sieberr.live 15001
+extra:
+  decay: 15
+  initial: 1000
+  minimum: 100

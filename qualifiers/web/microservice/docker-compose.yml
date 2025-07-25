@@ -1,0 +1,37 @@
+services:
+  flask-frontend:
+    build: ./src/flask-frontend
+    ports:
+      - "9999:5000"  # Expose only Flask frontend to host
+    depends_on:
+      - permission-manager
+      - golang-flag-server
+    environment:
+      - PERMISSION_MANAGER_URL=http://permission-manager:5000
+      - FLAG_SERVER_URL=http://golang-flag-server:5000
+      - PYTHONUNBUFFERED=1
+    networks:
+      - ctf-network
+
+  permission-manager:
+    build: ./src/permission-manager
+    volumes:
+      - ddata:/app/data
+    networks:
+      - ctf-network
+
+  golang-flag-server:
+    build: ./src/golang-flag-server
+    environment:
+      - FLAG=sctf{j50n_1s_4w350m3_bu7_s0m3_p4r53r5_5ucks_8574897549}
+    volumes:
+      - ddata:/app/data
+    networks:
+      - ctf-network
+
+networks:
+  ctf-network:
+    driver: bridge
+
+volumes:
+  ddata:

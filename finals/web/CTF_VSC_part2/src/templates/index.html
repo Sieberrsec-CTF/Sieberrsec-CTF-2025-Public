@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <title>CTF VSC 2</title>
+</head>
+<body>
+    <div class="container">
+        <h1>CTF VSC 2</h1>
+        <h2>Welcome to the CTF Versus Cup, where we shall determine once and for all, which CTF category is better than others.</h2>
+        <form action="/" method="post" class="form-login">
+            <h3>Please choose an award category:</h3>
+            <label for="award_cat" class="sr-only">Award Category: </label>
+            <select id="award_cat" name="award_cat">
+                {% for award_cat_id, award_cat in award_cats.items() %}
+                    <option value="{{award_cat_id}}">{{award_cat}}</option>
+                {% endfor %}
+            </select><br>
+            <h3>Please choose which CTF category to nominate in this award category:</h3>
+            <label for="ctf_cat" class="sr-only">CTF Category Nomination: </label>
+            <select id="ctf_cat" name="ctf_cat">
+                {% for ctf_cat_id,ctf_cat in ctf_cats.items()%}
+                    <option value="{{ctf_cat_id}}">{{ctf_cat}}</option>
+                {% endfor %}
+            </select>
+            <!-- <input type="text" id="name1" name="name1"><br>
+            <input type="text" id="name2" name="name2"><br> -->
+            <br><br>
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Submit Vote</button>
+        </form>
+        <br>
+        
+        <div class="log">
+            {% if log %}
+            <p><i>{{log}}</i></p>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>

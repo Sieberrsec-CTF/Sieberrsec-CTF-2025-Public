@@ -1,0 +1,6 @@
+services:
+  challenge:
+    container_name: misc-expired_chall
+    build: src
+    ports:
+      - 9999:5000 # use port 5000 if you are using pwn.red 

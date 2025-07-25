@@ -1,0 +1,33 @@
+name: aes in my forens?
+author: __ytj__
+attribution: __ytj__
+category: Forensics
+description: "I protected a ZIP file with a 69-character password.
+  You'll never be able to guess it!
+  
+  
+
+  In fact, I'm so confident that I'll even give you the SHA-1 hash
+  of the password: 
+  
+  
+  `9b9a2f352b707449bb52b660643df2a9a02752b4`"
+flags:
+- sctf{69_ch4rs_is_700_long_4_m33333}
+files: # remove this if you are not giving any files to players
+- dist/aes_in_my_forens.zip 
+tags:
+    - __ytj__
+# optional
+# attempts: 10 # max number of flag submission attempts
+# requirements:
+#   - {{chall name here that needs to be solved to unlock this challenge}}
+
+# do not edit these
+type: dynamic
+value: 1000
+state: visible
+extra:
+  decay: 15
+  initial: 1000
+  minimum: 100

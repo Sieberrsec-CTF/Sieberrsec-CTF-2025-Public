@@ -1,0 +1,27 @@
+name: mimi
+author: fastfoodsworker, Warri
+attribution: fastfoodsworker, Warri
+category: Reversing
+description: 'https://www.youtube.com/watch?v=oypjVTCDg7k'
+flags: 
+- sctf{s1mpl3...l0oozzzzzzzzzzzzzzzzzzzzzzzzz}
+files:
+- dist/zzz.exe
+
+tags:
+- Warri
+- fastfoodsworker
+
+# optional
+# attempts: 10 # max number of flag submission attempts
+# requirements:
+#   - {{chall name here that needs to be solved to unlock this challenge}}
+
+# do not edit these
+type: dynamic
+value: 1000
+state: visible
+extra:
+  decay: 15
+  initial: 1000
+  minimum: 100

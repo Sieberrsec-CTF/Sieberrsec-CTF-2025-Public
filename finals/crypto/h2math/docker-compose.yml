@@ -1,0 +1,7 @@
+services:
+  challenge:
+    container_name: crypto-h2math
+    build: src
+    ports:
+      - 9999:5000 # use port 5000 if you are using pwn.red 
+    privileged: true

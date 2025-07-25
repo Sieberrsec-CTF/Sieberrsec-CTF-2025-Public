@@ -1,0 +1,6 @@
+services:
+  challenge:
+    container_name: web-thejuggler
+    build: src
+    ports:
+      - 9999:35749

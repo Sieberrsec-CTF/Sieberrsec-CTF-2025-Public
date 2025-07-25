@@ -1,0 +1,7 @@
+services:
+  challenge:
+    container_name: web-WUBBALUBBADUBDUB
+    build: src
+    ports:
+      - 9999:1234 
+    # privileged: true 

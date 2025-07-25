@@ -1,0 +1,26 @@
+name: TheJuggler
+author: '0x3af72'
+attribution: '0x3af72'
+category: Web
+description: 'I have juggled a string. Can you guess the new string?'
+flags:
+- sctf{php_typ3_juggl1ng_1s_n0_j0k3}
+files: # remove this if you are not giving any files to players
+- dist/index.php
+tags:
+- '0x3af72'
+
+# optional
+# attempts: 10 # max number of flag submission attempts
+# requirements:
+#   - {{chall name here that needs to be solved to unlock this challenge}}
+
+# do not edit these
+type: dynamic
+value: 1000
+state: visible
+connection_info: http://chal1.sieberr.live:16005 or http://chal2.sieberr.live:16005
+extra:
+  decay: 100
+  initial: 1000
+  minimum: 100

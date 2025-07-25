@@ -1,0 +1,7 @@
+services:
+  challenge:
+    container_name: web-local_authority
+    build: src
+    ports:
+      - 10010:10010 # use port 5000 if you are using pwn.red 
+    # privileged: true  # uncomment this if you are using pwn.red 

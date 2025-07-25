@@ -1,0 +1,26 @@
+name: Monad
+author: jeff160
+attribution: jeff160
+category: Reversing
+description: 'For his latest computing assignment, jeff160 submitted a oneliner filled with gibberish in a mysterious programming language! Unfortunately, the original flag file was lost, but we did manage to recover the output!
+
+  `v,Khe\)mX[nmX*i\KXl\A9mt[m_l\`'
+flags:
+- sctf{b@tcH_scR1pt_but_c0ol3R}
+files:
+- dist/Monad.zip
+tags:
+    - jeff160 
+# optional
+# attempts: 10 # max number of flag submission attempts
+# requirements:
+#   - {{chall name here that needs to be solved to unlock this challenge}}
+
+# do not edit these
+type: dynamic
+value: 1000
+state: visible
+extra:
+  decay: 100
+  initial: 1000
+  minimum: 100

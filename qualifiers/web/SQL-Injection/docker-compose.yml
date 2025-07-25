@@ -1,0 +1,8 @@
+services:
+  challenge:
+    container_name: web-sqlinjection
+    build: src
+    ports:
+      - 12085:12085
+
+    

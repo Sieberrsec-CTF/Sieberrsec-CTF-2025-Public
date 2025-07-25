@@ -1,0 +1,25 @@
+name: picoCTF 2019 - strings it (modified)
+author: enxgmatic
+attribution: enxgmatic
+category: General Skills
+description: 'Practice your command line skills!
+
+
+  Run the file to get one part of the flag, and the other part without running it.
+  
+  
+  _Concepts: wget, chmod, executables, strings, grep_'
+flags:
+- sctf{wUt_d4_5tr1NgS_!?!}
+files: # remove this if you are not giving any files to players
+- dist/strings
+
+# optional
+# attempts: 10 # max number of flag submission attempts
+# requirements:
+#   - {{chall name here that needs to be solved to unlock this challenge}}
+
+# do not edit these
+type: standard
+value: 1000
+state: visible

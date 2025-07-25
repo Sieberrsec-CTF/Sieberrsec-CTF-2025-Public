@@ -1,0 +1,23 @@
+name: touch grass
+author: yanganyi
+attribution: yanganyi
+category: Misc
+description: 'bro just go touch grass. have a teammate take a pic of you touching grass and submit it in a ticket. it’s not that hard right?'
+flags:
+- sctf{pr0fess10n4l_gr4ss_t0uch3r}
+
+tags:
+    - yanganyi
+# optional
+# attempts: 10 # max number of flag submission attempts
+# requirements:
+#   - {{chall name here that needs to be solved to unlock this challenge}}
+
+# do not edit these
+type: dynamic
+value: 1000
+state: visible
+extra:
+  decay: 15
+  initial: 1000
+  minimum: 100

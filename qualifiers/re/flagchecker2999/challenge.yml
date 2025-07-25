@@ -1,0 +1,26 @@
+name: flagchecker2999
+author: fastfoodsworker
+attribution: fastfoodsworker
+category: Reversing
+description: 'baby steps'
+
+flags:
+- sctf{El3m3n74ry_fl46_ch3cker_8031265d}
+files: # remove this if you are not giving any files to players
+- dist/flagchecker2999
+tags:
+- fastfoodsworker
+
+# optional
+# attempts: 10 # max number of flag submission attempts
+# requirements:
+#   - {{chall name here that needs to be solved to unlock this challenge}}
+
+# do not edit these
+type: dynamic
+value: 1000
+state: visible
+extra:
+  decay: 100
+  initial: 1000
+  minimum: 100

@@ -1,0 +1,23 @@
+name: sniping
+author: shadowsocks
+attribution: shadowsocks
+category: Crypto
+description: 'my favourite streamer encrypted a secret message, i think it contains a flag!'
+flags:
+- sctf{str3am_sn1p1ng_with_Berlekamp_Massey}
+files: # remove this if you are not giving any files to players
+- dist/sniping.zip
+
+# optional
+# attempts: 10 # max number of flag submission attempts
+# requirements:
+#   - {{chall name here that needs to be solved to unlock this challenge}}
+
+# do not edit these
+type: dynamic
+value: 1000
+state: visible
+extra:
+  decay: 50
+  initial: 1000
+  minimum: 100

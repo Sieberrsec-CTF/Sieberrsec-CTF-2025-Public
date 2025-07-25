@@ -1,0 +1,22 @@
+name: Sieberr Pop Quiz
+author: enxgmatic
+attribution: enxgmatic
+category: Misc
+description: 'Hey class, it''s time for a pop quiz! Solve all the questions to obtain the flag. Access the quiz [here](https://docs.google.com/forms/d/e/1FAIpQLSew22pnKvj8PHo_vnhzqiKvHzPTVsRgfuiXSWGddfyT1QfdvA/viewform)!'
+flags:
+- sctf{w41+_d1d_u_ch34T??}
+
+
+# optional
+# attempts: 10 # max number of flag submission attempts
+# requirements:
+#   - {{chall name here that needs to be solved to unlock this challenge}}
+
+# do not edit these
+type: dynamic
+value: 1000
+state: visible
+extra:
+  decay: 50
+  initial: 1000
+  minimum: 100

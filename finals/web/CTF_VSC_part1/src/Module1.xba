@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE script:module PUBLIC "-//OpenOffice.org//DTD OfficeDocument 1.0//EN" "module.dtd">
+<script:module xmlns:script="http://openoffice.org/2000/script" script:name="Module1" script:language="StarBasic">REM  *****  BASIC  *****
+
+Sub Main
+
+Dim oSheet,doc as Object
+Dim oCell_name1,oCell_name2,oCell_adminkey as Object
+Dim name1,name2 as Variant
+
+&apos; Get the active sheet
+oSheet = ThisComponent.CurrentController.getActiveSheet()
+doc = ThisComponent
+Wait 3000
+
+&apos; Get the cell ranges
+oCell_name1 = oSheet.getCellRangeByName(&quot;A4&quot;)
+oCell_name2 = oSheet.getCellRangeByName(&quot;B4&quot;)
+oCell_adminkey = oSheet.getCellRangeByName(&quot;C4&quot;)
+
+&apos; Get the values from the cells
+name1 = oCell_name1.getString()
+name2 = oCell_name2.getString()
+
+Select Case name1:
+	Case &quot;pwn&quot;,&quot;web&quot;,&quot;crypto&quot;,&quot;forens&quot;,&quot;rev&quot;,&quot;osint&quot;,&quot;misc&quot;:
+		Select Case name2:
+			Case &quot;best&quot;,&quot;worst&quot;,&quot;easiest&quot;,&quot;hardest&quot;:
+				oCell_adminkey.setString(&quot;sctf{c5v_sh0u1dNt_hv_Tru5t3d_y4}&quot;)
+			Case Else:
+				oCell_adminkey.setString(&quot;N&quot;)
+		End Select
+	Case Else:
+		oCell_adminkey.setString(&quot;N&quot;)
+End Select
+
+doc.store()
+doc.close(True)
+
+End Sub
+</script:module>

@@ -1,0 +1,23 @@
+name: CTF Versus Cup 2
+author: enxgmatic
+attribution: enxgmatic
+category: Web
+description: 'Oopsies, we have changed our voting system after numerous breaches.'
+flags:
+- sctf{n0_w4Y}
+files: 
+- dist/CTF_VSC_part2.zip
+
+requirements:
+- CTF Versus Cup 1
+tags:
+- enxgmatic
+# do not edit these
+type: dynamic
+value: 1000
+state: visible
+connection_info: http://finals1.sieberr.live:16003
+extra:
+  decay: 15
+  initial: 1000
+  minimum: 100

@@ -1,0 +1,19 @@
+name: Here There Everywhere
+author: xi
+attribution: xi
+category: Misc
+description: 'It’s here, no there, everywhere else but there, not here, maybe here, but where???'
+flags:
+- sctf{y4Y_yOU_F0und_Me}
+files:
+- dist/file.zip
+tags:
+    - xi
+
+type: dynamic
+value: 1000
+state: visible
+extra:
+  decay: 15
+  initial: 1000
+  minimum: 100

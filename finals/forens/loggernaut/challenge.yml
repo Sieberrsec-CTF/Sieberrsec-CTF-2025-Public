@@ -1,0 +1,27 @@
+name: loggernaut
+author: kairos
+attribution: kairos
+category: Forensics
+description: "sometimes, in order to look for the answers, you need to keep quiet and see through the noise"
+
+flags:
+- sctf{we11_d0n3_d0_y0u_l0v3_b1u3_t34m1ng}
+files: # remove this if you are not giving any files to players
+- dist/dnsmasq_2024-07-18.log
+- dist/IIS_u_ex240718.log
+tags:
+- kairos
+
+# optional
+# attempts: 10 # max number of flag submission attempts
+# requirements:
+#   - {{chall name here that needs to be solved to unlock this challenge}}
+
+# do not edit these
+type: dynamic
+value: 1000
+state: visible
+extra:
+  decay: 15
+  initial: 1000
+  minimum: 100

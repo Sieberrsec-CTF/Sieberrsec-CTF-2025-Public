@@ -1,0 +1,25 @@
+name: EasyXSSChallenge
+author: '0x3af72'
+attribution: '0x3af72'
+category: Web
+description: 'This XSS challenge is trivial!'
+flags:
+- sctf{i_l0v3_xss_ch4ll3ng3s}
+files: # remove this if you are not giving any files to players
+- dist/EasyXSSChallenge.zip
+
+# optional
+# attempts: 10 # max number of flag submission attempts
+# requirements:
+#   - {{chall name here that needs to be solved to unlock this challenge}}
+tags:
+- "0x3af72"
+# do not edit these
+type: dynamic
+value: 1000
+state: visible
+connection_info: http://finals1.sieberr.live:16004
+extra:
+  decay: 15
+  initial: 1000
+  minimum: 100

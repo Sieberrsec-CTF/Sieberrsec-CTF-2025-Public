@@ -1,0 +1,7 @@
+services:
+  challenge:
+    container_name: pwn-babybof
+    build: src
+    ports:
+      - 15567:5000
+    privileged: true   

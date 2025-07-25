@@ -1,0 +1,24 @@
+name: Moss in the Backrooms
+author: __ytj__
+attribution: __ytj__
+category: Forensics
+description: 'WªHªAªTª ªAªRªEª ªTªHªEªSªEª ªCªHªAªRªAªCªTªEªRªSª ªWªHªEªRªEª ªIªSª ªMªYª ªJªPªGª ªAªAªAªAªAªAªAªAªAªAªAªAªAªAªAªAªAªHª'
+flags:
+- sctf{d0n7_100k_64ck}
+files: # remove this if you are not giving any files to players
+- dist/Moss_in_the_Backrooms.jpg
+tags:
+    - __ytj__
+# optional
+# attempts: 10 # max number of flag submission attempts
+# requirements:
+#   - {{chall name here that needs to be solved to unlock this challenge}}
+
+# do not edit these
+type: dynamic
+value: 1000
+state: visible
+extra:
+  decay: 15
+  initial: 1000
+  minimum: 100

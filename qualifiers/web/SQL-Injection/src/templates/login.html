@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+    <title>The Vault - Login</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="container">
+    <h2>🔐 Welcome to The Vault</h2>
+    <form method="POST">
+        <input type="text" name="username" placeholder="Username" required><br>
+        <input type="password" name="password" placeholder="Password" required><br>
+        <button type="submit">Access Vault</button>
+    </form>
+
+    {% if error %}
+        <div class="error"><strong>Error:</strong> {{ error }}</div>
+    {% endif %}
+
+    {% if query %}
+        <div class="info"><strong>Executed Query:</strong><br><code>{{ query }}</code></div>
+    {% endif %}
+
+    {% if db_error %}
+        <div class="error"><strong>DB Error:</strong> {{ db_error }}</div>
+    {% endif %}
+</div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="icon" href="https://infocommsociety.com/wp-content/uploads/2022/07/cropped-irs_pfp_zoom-32x32.png" sizes="32x32"/>
+    <link rel="icon" href="https://infocommsociety.com/wp-content/uploads/2022/07/cropped-irs_pfp_zoom-192x192.png" sizes="192x192"/>
+        
+    <title>Sieberrsec</title>
+</head>
+<body>
+    <div class="container">
+        <img src="{{ url_for('static', filename='sctf5.0.svg') }}" class="logo">
+
+        <h1>Sieberrsec Query Lobby</h1>
+        <!--<i>I am sure our website can't be exploited. SQLite is very secure.</i>-->
+        
+        <br><br>
+        <form action="/" method="post" class="form-login">
+            <h3>Please log in:</h3>
+            <label for="inputUsername" class="sr-only">Username</label>
+            <input type="text" name="username" id="inputUsername" class="form-control" placeholder="Username" required>
+            <br><br>
+            <label for="inputPassword" class="sr-only">Password</label>
+            <input type="text" name="password" id="inputPassword" class="form-control" placeholder="Password" required>
+            <br>
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Log in</button>
+        </form>
+        <br>
+        
+        <div class="result">
+            {% if result %}
+            <p>{{ result }}</p>
+            {% endif %}
+        </div>
+        <br>
+
+        <div class="query">
+            {% if query  %}
+            <h3>Debug:</h3>
+            <p><b>username: </b>{{username}} <br>
+            <b>password: </b>{{password}}<br>
+            <b>sql query: </b>{{ query }}</p>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>
+

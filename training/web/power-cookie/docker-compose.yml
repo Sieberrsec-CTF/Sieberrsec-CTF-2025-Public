@@ -1,0 +1,7 @@
+services:
+  challenge:
+    container_name: web-power_cookie
+    build: src
+    ports:
+      - 10011:10011 # use port 5000 if you are using pwn.red 
+    # privileged: true  # uncomment this if you are using pwn.red 

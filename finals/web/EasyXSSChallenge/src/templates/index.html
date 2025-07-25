@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EasyXSSChallenge</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='index.css')}}">
+</head>
+<body>
+    <header>
+        <h1>🕵️ EasyXSSChallenge</h1>
+        <p>Welcome to the beginner-unfriendly XSS challenge!</p>
+    </header>
+
+    <main>
+        <h2>How it works</h2>
+        <p>
+            Submit a URL containing your payload, and our admin bot will visit it. Can you make it run some JavaScript?
+        </p>
+
+        <!-- Report Form -->
+        <form action="/report" method="POST">
+            <label for="url">Challenge params:</label>
+            <input type="text" id="params" name="params" placeholder="filename=test.html">
+            <input type="submit" value="Report to Admin Bot">
+        </form>
+
+        <!-- Upload Payload Form -->
+        <h2>Upload Payload</h2>
+        <form id="uploadForm" method="POST">
+            <label for="filename">Filename (no .html):</label>
+            <input type="text" id="filename" name="filename" placeholder="example123">
+
+            <label for="content">HTML Content:</label>
+            <textarea id="content" name="content" rows="10" placeholder="<h1>Hello XSS</h1>"></textarea>
+
+            <button type="button" onclick="submitPayload()">Upload</button>
+        </form>
+
+        <!-- Render Section -->
+        <h2>Render Uploaded Payload</h2>
+        <form id="renderForm" method="GET">
+            <label for="renderFilename">Filename (add .html at the back please):</label>
+            <input type="text" id="renderFilename" name="renderFilename" placeholder="example123.html">
+            <button type="button" onclick="renderFile()">Render</button>
+        </form>
+    </main>
+
+    <footer>
+        &copy; 2025 EasyXSSChallenge — Happy Hacking!
+    </footer>
+
+    <script src="{{url_for('static', filename='index.js')}}"></script>
+</body>
+</html>

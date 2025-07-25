@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block title %}Admin Portal{% endblock %}
+
+{% block content %}
+<h1>🎯 Admin Portal</h1>
+
+<div class="session-info">
+    <h3>Session Information</h3>
+    <p>Session ID: <span class="session-id">{{ session_id }}</span></p>
+</div>
+
+<div class="dashboard">
+    <h2>✅ Account Created Successfully!</h2>
+    <p>Your account has been set up and registered.</p>
+    <p>You can now access the Admin Portal. But can you manage permissions?</p>
+    
+</div>
+
+<div class="perm-form">
+    <h3 style="color: #00ff00; margin-bottom: 1.5rem;">🔐 Update Permissions</h3>
+    <p style="color: #cccccc; margin-bottom: 1.5rem;">
+        Enter a session id and permission level to update user permissions.
+    </p>
+    
+    <div class="form-group">
+        <label for="updateUuid">UUID:</label>
+        <input type="text" id="updateUuid" placeholder="Enter Session Id..." maxlength="36">
+    </div>
+    
+    <div class="form-group">
+        <label for="updateRoot">Root Permission:</label>
+        <select id="updateRoot">
+            <option value="0">0 (Root Access)</option>
+            <option value="1">1 (No Root Access)</option>
+        </select>
+    </div>
+    
+    <button class="btn update-btn" onclick="updatePermissions()">
+        Update Permissions
+    </button>
+    
+    <div class="loading update-loading">
+        <p>⏳ Updating permissions...</p>
+    </div>
+</div>
+{% endblock %}

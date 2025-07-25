@@ -1,0 +1,14 @@
+service vivi
+{
+    disable         = no
+    socket_type     = stream
+    protocol        = tcp
+    port            = 20001
+    wait            = no
+    user            = root
+    server          = /usr/local/bin/python
+    server_args     = /app/chall.py
+    type            = UNLISTED
+    per_source      = 5
+    rlimit_cpu      = 2
+}

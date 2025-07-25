@@ -1,0 +1,7 @@
+services:
+  general-napping_cat:
+    container_name: general-napping_cat
+    build: src
+    ports:
+      - 12344:5000 # use port 5000 if you are using pwn.red 
+    privileged: true  # uncomment this if you are using pwn.red 

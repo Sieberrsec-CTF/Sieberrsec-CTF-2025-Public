@@ -1,0 +1,26 @@
+name: h3math
+author: burner972021
+attribution: burner972021
+category: Crypto
+description: 'can you pass h3 math???'
+flags:
+- sctf{gcd_stands_for_gullible}
+files: # remove this if you are not giving any files to players
+- dist/h3math.py
+
+# optional
+# attempts: 10 # max number of flag submission attempts
+requirements:
+   - h2math
+tags:
+- burner972021
+
+# do not edit these
+type: dynamic
+value: 1000
+state: visible
+connection_info: nc finals1.sieberr.live 18004
+extra:
+  decay: 15
+  initial: 1000
+  minimum: 100

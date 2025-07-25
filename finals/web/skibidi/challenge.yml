@@ -1,0 +1,36 @@
+name: S.K.I.B.I.D.I.
+author: kek
+attribution: kek
+category: Web
+description: 'Welcome to the SeKure Integrated Big Impenetrable Database Interface!
+
+
+  Here we allow company users to upload their repositories and perform some simple filesystem operations!
+
+
+  With our next generation Filter EverythingTM technology blocking every malicious request, you can rest assured that your data is safe!
+
+
+  I''m so confident that we even added a flag in our server that you''ll never steal!
+
+  Please access the instanced challenge in at https://ctf.sieberr.live . It is in Web/S.K.I.B.I.D.I.
+  '
+flags:
+- sctf{r4c1ng_1nt0_th3_n1ght}
+files: # remove this if you are not giving any files to players
+- dist/skibidi.zip
+
+# optional
+# attempts: 10 # max number of flag submission attempts
+# requirements:
+#   - {{chall name here that needs to be solved to unlock this challenge}}
+
+# do not edit these
+type: dynamic
+value: 1000
+state: visible
+connection_info: xx
+extra:
+  decay: 50
+  initial: 1000
+  minimum: 100

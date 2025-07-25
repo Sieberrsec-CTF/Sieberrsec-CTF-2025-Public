@@ -1,0 +1,20 @@
+name: CTF Versus Cup 1
+author: enxgmatic
+attribution: enxgmatic
+category: Web
+description: 'I keep seeing people argue on discord which CTF category is the best or the worst... so I decided to create a tournament to determine which category reins supreme!'
+flags:
+- sctf{c5v_sh0u1dNt_hv_Tru5t3d_y4}
+files: 
+- dist/CTF_VSC_part1.zip
+tags:
+- enxgmatic
+# do not edit these
+type: dynamic
+value: 1000
+state: visible
+connection_info: http://finals1.sieberr.live:16002
+extra:
+  decay: 15
+  initial: 1000
+  minimum: 100

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WUBBALUBBADUBDUB</title>
+    
+    <style>
+      @keyframes rainbow-text {
+          0% { color: red; }
+          16% { color: orange; }
+          33% { color: yellow; }
+          50% { color: green; }
+          66% { color: blue; }
+          83% { color: indigo; }
+          100% { color: violet; }
+      }
+
+      @keyframes rainbow-bg {
+          0% { background-color: violet; }
+          16% { background-color: red; }
+          33% { background-color: orange; }
+          50% { background-color: yellow; }
+          66% { background-color: green; }
+          83% { background-color: blue; }
+          100% { background-color: indigo; }
+      }
+
+      body { 
+        font-family: 'Comic Sans MS', 'Comic Sans', cursive;;
+        
+        background-image: url('{{ url_for("static", filename="rick.png") }}');
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        min-height: 100vh;
+
+        color: white;
+        text-align: center;
+
+        animation: rainbow-bg 2s linear infinite;
+      }
+
+      h1 {
+        font-size: 3em;
+        animation: rainbow-text 1s linear infinite;
+      }
+      
+      .result { 
+        background: rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 10px;
+     }
+
+     .result pre {
+        white-space: pre-wrap;
+        word-break: break-word;
+      }
+    </style>
+</head>
+<body>
+    <h1>WUBBA LUBBA DUB DUB</h1>
+
+    <div class="container">
+        <form method="post" enctype="multipart/form-data">
+            <input type="file" name="recipe" required>
+            <button type="submit">Process pickle!</button>
+        </form>
+        
+        {% if result is not none %}
+            <div class="result">
+                <h2>Anti-pickle serum:</h2>
+                <pre>{{ result }}</pre>
+            </div>
+        {% endif %}
+        
+        {% with messages = get_flashed_messages() %}
+          {% if messages %}
+            <ul>
+              {% for message in messages %}
+                <li>{{ message }}</li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        {% endwith %}
+    </div>
+</body>
+</html>

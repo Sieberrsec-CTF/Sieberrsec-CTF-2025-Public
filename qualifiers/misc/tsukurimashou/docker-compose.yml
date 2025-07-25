@@ -1,0 +1,7 @@
+services:
+  challenge:
+    container_name: misc-tsukurimashou
+    build: src
+    ports:
+      - 9999:5000 
+    privileged: true 

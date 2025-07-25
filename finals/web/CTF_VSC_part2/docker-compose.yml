@@ -1,0 +1,6 @@
+services:
+  challenge:
+    container_name: web-CTF_VSC_2
+    build: src
+    ports:
+      - 9999:8000

@@ -1,0 +1,21 @@
+name: SieberrrrROP
+author: fakeaviationist
+attribution: fakeaviationist
+category: Pwn
+description: "Size doesn't matter when it comes to pwn. It never does."
+flags:
+- sctf{sieberrrrsec_r0p_h4h4h4h4h4}
+files:
+- dist/SieberrrrROP.zip
+tags:
+- fakeaviationist
+
+# do not edit these
+type: dynamic
+value: 1000
+state: visible
+connection_info: nc chal1.sieberr.live 15005 or nc chal2.sieberr.live 15005
+extra:
+  decay: 100
+  initial: 1000
+  minimum: 100

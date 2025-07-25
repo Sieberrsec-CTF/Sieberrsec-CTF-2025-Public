@@ -1,0 +1,15 @@
+name: Welcome
+category: Welcome
+description: 'Welcome to training! Access the accompanying training google document [here](https://docs.google.com/document/d/1XOK_5Y6UB_qDsWUamHrE7bXUem8MfA1Oh0bdf0S7SI4/edit?usp=sharing) for a flag! Happy Hunting!'
+flags:
+- sctf{w31c0m3_2_SCTF_tr41n1ng}
+
+# optional
+# attempts: 10 # max number of flag submission attempts
+# requirements:
+#   - {{chall name here that needs to be solved to unlock this challenge}}
+
+# do not edit these
+type: standard
+value: 1
+state: visible

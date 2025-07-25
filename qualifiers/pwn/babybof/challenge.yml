@@ -1,0 +1,20 @@
+name: babybof
+author: Haowei
+attribution: Haowei
+category: Pwn
+description: Just call system("/bin/sh")
+flags:
+- sctf{ea841b9c9ee4c63ab9825e0be83109d2cc0798a7b2ec2adc099c64bdae8e25d7}
+files: 
+- dist/babybof.zip
+tags:
+    - Haowei 
+# do not edit these
+type: dynamic
+value: 1000
+state: visible
+connection_info: nc chal1.sieberr.live 15000 or nc chal2.sieberr.live 15000
+extra:
+  decay: 100
+  initial: 1000
+  minimum: 100

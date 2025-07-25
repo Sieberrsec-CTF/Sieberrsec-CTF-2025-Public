@@ -1,0 +1,25 @@
+name: paultons park home of peppa pig world
+author: whywhy, yanganyi
+attribution: whywhy, yanganyi
+category: Misc
+description: "time for a walk in a park.. wait a second, something doesn't look right here! if the coordinates are 1.23456,7.89012, flag is sctf{1.2345,7.8901}"
+flags:
+- sctf{1.3794,103.7439}
+files:
+- dist/location.jpeg
+tags:
+    - whywhy
+    - yanganyi
+# optional
+# attempts: 10 # max number of flag submission attempts
+# requirements:
+#   - {{chall name here that needs to be solved to unlock this challenge}}
+
+# do not edit these
+type: dynamic
+value: 1000
+state: visible
+extra:
+  decay: 15
+  initial: 1000
+  minimum: 100

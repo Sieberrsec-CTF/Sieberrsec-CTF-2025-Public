@@ -1,0 +1,15 @@
+# babybof
+
+## Description
+
+Just call system("/bin/sh")
+
+## Author
+
+Haowei
+
+## Flag
+
+`sctf{ea841b9c9ee4c63ab9825e0be83109d2cc0798a7b2ec2adc099c64bdae8e25d7}`
+
+# 0 solves

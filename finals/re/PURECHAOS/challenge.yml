@@ -1,0 +1,30 @@
+name: PURECHAOS
+author: jeff160
+attribution: jeff160
+category: Reversing
+description: 'Imagine we were boys on the swing at Bedok Reservoir
+  
+  That would be fun 😍
+  
+  But we could go missing
+  
+  That would be bad 🥀💔'
+flags:
+- sctf{th3_k3y_t0_succ355fUl_l34d3rSh1p_15_1nflu3nCe_n0t_4uThor1tY}
+files:
+- dist/PURECHAOS.zip
+tags:
+  - jeff160
+# optional
+# attempts: 10 # max number of flag submission attempts
+# requirements:
+#   - {{chall name here that needs to be solved to unlock this challenge}}
+
+# do not edit these
+type: dynamic
+value: 1000
+state: visible
+extra:
+  decay: 15
+  initial: 1000
+  minimum: 100

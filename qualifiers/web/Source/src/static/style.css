@@ -1,0 +1,17 @@
+body {
+    background-color: #121212;
+    color: #f0f0f0;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    border: 1px solid #444;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: #1e1e1e;
+}

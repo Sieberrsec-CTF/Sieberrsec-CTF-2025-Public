@@ -1,0 +1,26 @@
+name: realistic_2fa
+author: smartoinker
+attribution: smartoinker
+category: Web
+description: 'You are trying to gain access to an admin account for SecureBank. A little bird told you that the username is: "admin". All the best.'
+flags:
+- sctf{w0W_y0u_r4C3d_f4St_3n0u6h_4829821}
+files: # remove this if you are not giving any files to players
+- dist/realistic_2fa.zip 
+tags:
+- smartoinker
+
+# optional
+# attempts: 10 # max number of flag submission attempts
+# requirements:
+#   - {{chall name here that needs to be solved to unlock this challenge}}
+
+# do not edit these
+type: dynamic
+value: 1000
+state: visible
+connection_info: http://chal1.sieberr.live:16004 or http://chal2.sieberr.live:16004
+extra:
+  decay: 100
+  initial: 1000
+  minimum: 100

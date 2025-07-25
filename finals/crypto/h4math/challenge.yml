@@ -1,0 +1,25 @@
+name: h4math
+author: burner972021
+attribution: burner972021
+category: Crypto
+description: 'can you pass h4 math???'
+flags:
+- sctf{gagag00googull1ble}
+files: # remove this if you are not giving any files to players
+- dist/h4math.py
+
+# optional
+# attempts: 10 # max number of flag submission attempts
+requirements:
+   - h3math
+tags:
+   - burner972021
+# do not edit these
+type: dynamic
+value: 1000
+state: visible
+connection_info: nc finals1.sieberr.live 18006
+extra:
+  decay: 15
+  initial: 1000
+  minimum: 100

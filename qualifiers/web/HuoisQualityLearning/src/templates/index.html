@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Technique Finder</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Competitive Programming Technique Finder</h1>
+        <p>I can show you the competitive programming techniques I know.</p>
+        <p>But my notes about them are private. You will never steal my notes!</p>
+        <form method="POST">
+            <input type="text" name="technique" placeholder="Enter technique name..." required>
+            <button type="submit">Search</button>
+        </form>
+
+        {% if error %}
+            <p class="error">{{ error }}</p>
+        {% endif %}
+
+        {% if results %}
+            <h2>Results:</h2>
+            <ul>
+                {% for row in results %}
+                    <li>{{ row[0] }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </div>
+</body>
+</html>

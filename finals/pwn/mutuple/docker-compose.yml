@@ -1,0 +1,6 @@
+services:
+  chall:
+    container_name: pwn-mutuple
+    build: ./src/
+    ports:
+      - "9999:5000"

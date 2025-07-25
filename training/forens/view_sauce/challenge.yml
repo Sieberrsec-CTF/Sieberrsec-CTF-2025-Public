@@ -1,0 +1,16 @@
+name: view sauce
+author: caesar
+category: Forensics
+description: >-
+  the lag n crash committee has been hard at work creating materials for their ctf.
+  they have to post their last poster but they cant seem to remember the software
+  they used to design it, and what platform they were planning to post it on. please
+  send help! flag format: `sctf{software_socialmedianame}`, e.g., `sctf{photoshop_twitter}`
+value: 1000
+
+flags:
+- sctf{canva_instagram}
+
+files:
+- dist/LNC_Poster.png
+attribution: caesar

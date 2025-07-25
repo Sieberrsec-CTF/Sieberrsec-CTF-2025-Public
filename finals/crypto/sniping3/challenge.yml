@@ -1,0 +1,25 @@
+name: sniping3
+author: shadowsocks
+attribution: shadowsocks
+category: Crypto
+description: 'my favourite streamer is back again, with 3 streams today!'
+flags:
+- sctf{tr1pppppppl3_str3am_sn1p1ng_th15_t1m3_with_Berlekamp_Massey_:)}
+files: # remove this if you are not giving any files to players
+- dist/sniping3.zip
+
+tags:
+- shadowsocks
+# optional
+# attempts: 10 # max number of flag submission attempts
+# requirements:
+#   - {{chall name here that needs to be solved to unlock this challenge}}
+
+# do not edit these
+type: dynamic
+value: 1000
+state: visible
+extra:
+  decay: 15
+  initial: 1000
+  minimum: 100

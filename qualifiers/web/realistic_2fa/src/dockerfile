@@ -1,0 +1,31 @@
+# Use official Python base image
+FROM python:3.11-slim
+
+# Set environment variables
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
+
+# Set work directory
+WORKDIR /app
+
+# Copy project files
+COPY . .
+
+# Install dependencies
+RUN pip install --upgrade pip
+RUN pip install -r requirements.txt
+
+# Set environment variables for Flask
+ENV VALID_USER=admin
+ENV VALID_PASS=sctf{w0W_y0u_r4C3d_f4St_3n0u6h_4829821}
+
+# Set environment variables for Flask
+ENV FLASK_APP=app.py
+ENV FLASK_RUN_HOST=0.0.0.0
+ENV FLASK_RUN_PORT=5000
+
+# Expose port
+EXPOSE 5000
+
+# Start the server
+CMD ["flask", "run"]

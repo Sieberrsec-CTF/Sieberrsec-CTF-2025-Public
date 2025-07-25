@@ -1,0 +1,28 @@
+name: picoMini 2022 - Serpentine (modified)
+author: enxgmatic
+attribution: enxgmatic
+category: General Skills
+description: 'Practice your command line skills, without using a GUI tool e.g. VS Code!
+  
+  
+  Find the flag in the Python script!
+  
+  
+  Hint: you do not need to reverse engineer the encryption scheme
+  
+
+  _Concepts: zip, python, vim/nano_'
+flags:
+- sctf{7h3_r04d_k1nd4_l355_7r4v3l3d_hM}
+files: # remove this if you are not giving any files to players
+- dist/serpentine.zip
+
+# optional
+# attempts: 10 # max number of flag submission attempts
+# requirements:
+#   - {{chall name here that needs to be solved to unlock this challenge}}
+
+# do not edit these
+type: standard
+value: 1000
+state: visible

@@ -1,0 +1,19 @@
+name: photoshop
+author: Haowei
+attribution: Haowei
+category: Pwn
+description: 'The most cutting-edge image editing program'
+flags:
+- sctf{credits_to_burner972021_for_all_the_art}
+files: 
+- dist/photoshop.zip
+tags:
+    - Haowei
+type: dynamic
+value: 1000
+state: visible
+connection_info: nc finals1.sieberr.live 15003
+extra:
+  decay: 15
+  initial: 1000
+  minimum: 100

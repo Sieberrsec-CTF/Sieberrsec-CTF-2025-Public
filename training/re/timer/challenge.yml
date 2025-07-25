@@ -1,0 +1,21 @@
+name: picoCTF 2023 - timer
+author: yeobl
+attribution: yeobl
+category: Re
+description: 'You will find the flag after analysing this apk.
+
+  Note that specifically for this challenge, the flag is wrapped in picoCTF{...}'
+flags:
+- picoCTF{t1m3r_r3v3rs3d_succ355fully_17496}
+files: # remove this if you are not giving any files to players
+- dist/timer.apk
+
+# optional
+# attempts: 10 # max number of flag submission attempts
+# requirements:
+#   - {{chall name here that needs to be solved to unlock this challenge}}
+
+# do not edit these
+type: standard
+value: 1000
+state: visible

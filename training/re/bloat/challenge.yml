@@ -1,0 +1,20 @@
+name: picoCTF 2022 - bloat.py (modified)
+author: yeobl
+attribution: yeobl
+category: Re
+description: 'Run the Python program bloat.py in the same directory as the encrypted flag flag.txt.enc.'
+
+flags:
+- sctf{d30bfu5c4710n_f7w_b8062eec}
+files: # remove this if you are not giving any files to players
+- dist/bloat_files.zip
+
+# optional
+# attempts: 10 # max number of flag submission attempts
+# requirements:
+#   - {{chall name here that needs to be solved to unlock this challenge}}
+
+# do not edit these
+type: standard
+value: 1000
+state: visible

@@ -1,0 +1,2 @@
+sctf.img filter=lfs diff=lfs merge=lfs -text
+quicknotes.AppImage filter=lfs diff=lfs merge=lfs -text

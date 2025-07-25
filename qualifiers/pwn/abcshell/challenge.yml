@@ -1,0 +1,26 @@
+name: a + b + c = shell
+author: whywhy
+attribution: whywhy
+category: Pwn
+description: 'solve for shell :*'
+flags:
+- sctf{N0W_1_C4N_C0UN7_70_SH3LL}
+files: # remove this if you are not giving any files to players
+- dist/abcshell.zip
+tags:
+- whywhy
+
+# optional
+# attempts: 10 # max number of flag submission attempts
+# requirements:
+#   - {{chall name here that needs to be solved to unlock this challenge}}
+
+# do not edit these
+type: dynamic
+value: 1000
+state: visible
+connection_info: nc chal1.sieberr.live 15007 or nc chal2.sieberr.live 15007
+extra:
+  decay: 100
+  initial: 1000
+  minimum: 100

@@ -1,0 +1,20 @@
+name: McDonald's
+author: lty748
+attribution: lty748
+category: Pwn
+description: 'Can you pwn the McDonald''s kiosk?'
+flags:
+- sctf{c4n_1_h4v3_4_mcch1ck3n_m34l_up51z3_w17h_n0_mc54uc3_pl3453_7h4nk_y0u}
+files:
+- dist/mcdonalds.zip
+tags:
+- lty748
+
+type: dynamic
+value: 1000
+state: visible
+connection_info: nc chal1.sieberr.live 15006 or nc chal2.sieberr.live 15006
+extra:
+  decay: 100
+  initial: 1000
+  minimum: 100

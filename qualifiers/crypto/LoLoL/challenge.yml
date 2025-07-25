@@ -1,0 +1,27 @@
+name: LoLoL
+author: yeobl
+attribution: yeobl
+category: Crypto
+description: 'I was doing my vectors and matrices homework but I accidentally lost part of it :(
+  
+  
+  Can you help me retrieve the original array?'
+flags:
+- sctf{i_4ctu3lly_dk_h0w_LLL_d03s_1t5_m4g1c_lm400}
+files: # remove this if you are not giving any files to players
+- dist/gen.py
+- dist/output.py
+
+# optional
+# attempts: 10 # max number of flag submission attempts
+# requirements:
+#   - {{chall name here that needs to be solved to unlock this challenge}}
+
+# do not edit these
+type: dynamic
+value: 1000
+state: visible
+extra:
+  decay: 50
+  initial: 1000
+  minimum: 100

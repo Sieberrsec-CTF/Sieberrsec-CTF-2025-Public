@@ -1,0 +1,18 @@
+name: flagchecker3001
+author: lty748
+attribution: lty748
+category: Reversing
+description: 'My friend sent me this script a few weeks ago... I wonder what it does'
+flags:
+- sctf{4dv4nc3d_py_m0nk3y_p4tch1ng}
+files:
+- dist/checker.py
+tags:
+  - lty748
+type: dynamic
+value: 1000
+state: visible
+extra:
+  decay: 15
+  initial: 1000
+  minimum: 100

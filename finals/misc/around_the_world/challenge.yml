@@ -1,0 +1,19 @@
+name: Around the world
+author: xi
+attribution: xi
+category: Misc
+description: 'I had a dream, a dream of travelling around the world. I’ve spent years planning to ensure that when I embark on my trip, it’s going to be perfect. I’ll be starting on my trip in a few more months. I’m so excited!'
+flags:
+- sctf{drE4M_c0m3_TrUe}
+files:
+- dist/diary.txt
+tags:
+    - xi
+
+type: dynamic
+value: 1000
+state: visible
+extra:
+  decay: 15
+  initial: 1000
+  minimum: 100

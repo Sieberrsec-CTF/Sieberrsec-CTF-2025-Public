@@ -1,0 +1,20 @@
+name: SecureLogin 3000
+author: lty748
+attribution: lty748
+category: Pwn
+description: 'Our company recently implemented the SecureLogin 3000 system, but someone had already broken in! Good thing we replaced the flag with a fake one beforehand!'
+flags:
+- sctf{34sy_p34sy_fm7s7r_5qu33zy}
+files:
+- dist/securelogin.zip
+tags:
+- lty748
+
+type: dynamic
+value: 1000
+state: visible
+connection_info: nc chal1.sieberr.live 15003 or nc chal2.sieberr.live 15003
+extra:
+  decay: 100
+  initial: 1000
+  minimum: 100
