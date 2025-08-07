@@ -10,6 +10,7 @@ xi
 
 ## Flag
 
-`sctf{drE4M_c0m3_TrUe}`
+`sctf{DrE4M_c0m3_TrUe}`
 
 # 0 solves
+
