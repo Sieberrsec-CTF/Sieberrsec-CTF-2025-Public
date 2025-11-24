@@ -1,4 +1,6 @@
 # Sieberrsec CTF 2025
-## Public Release (without solve)
+## Public Release 
 
-solve counts have been added
+Solve counts have been added
+
+Solves have been added

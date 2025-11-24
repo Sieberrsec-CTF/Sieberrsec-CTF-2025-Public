@@ -1,0 +1,3 @@
+- Patch binary to get Sleep() to just ret;
+- Statically analyse binary to realise its doing a simple-loop checker
+- Solve simple loop for flag (i solved it manually soz)

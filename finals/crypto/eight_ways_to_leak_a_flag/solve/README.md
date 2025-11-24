@@ -1,0 +1,3 @@
+- curve25519 operates on a group of points with cofactor of 8, meaning full group is 8 times larger than the prime-order subgroup used for cryptography
+- if a cryptographic implementation does not validate a public key, an attacker can send a small subgroup element to a victim during a key exchange
+- when the victim calculates `shared = victim_secret * attacker` and `attacker` is from a small subgroup, the shared secret can only take on a few possible values. an attacker can simply try all of these to decrypt data or gain information about the victim's key

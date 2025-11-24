@@ -1,0 +1,4 @@
+- Look up AES-GCM
+- Use AES-ECB oracle to recover IV
+- Reverse GCM Tag algo to obtain AAD
+- Get flag

@@ -1,0 +1,5 @@
+- we first notice the nonce is reused
+- this means we just need another set of (pt, ct) to decrypt the flag
+- the only requirement is that the (pt, ct) set needs to be longer than the (flag, flag_enc) set
+- thus we take the longest one from out.txt
+- and solve for the flag

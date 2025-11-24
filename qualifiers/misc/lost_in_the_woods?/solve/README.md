@@ -1,0 +1,3 @@
+- search canals
+- check all of them
+- alternatively make the observation on the region of Singapore this is in (east)

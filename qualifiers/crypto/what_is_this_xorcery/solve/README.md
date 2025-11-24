@@ -1,0 +1,4 @@
+- we are given the key length, 5
+- we have 5 characters of plaintext, `sctf{`
+- we can xor `sctf{` with the encrypted text to get the key
+- xoring the key with the encrypted text gives us the full flag
